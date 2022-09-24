@@ -1058,7 +1058,7 @@ class AutoDaMa {
         return new Promise(function (resolve, reject) {
             var outTimer = setTimeout(() => {
                 reject('timeOver');
-            }, 300000)
+            }, 30000)
             var isFirstSubmit = true;
             var timer = setInterval(() => {
                 if (iframe.contentDocument.querySelector(".analysis") !== null) {
